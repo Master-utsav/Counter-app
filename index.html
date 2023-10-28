@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <link rel="stylesheet" href="counter.css">
+</head>
+<body class=" box-border m-0 p-0">
+    <div class=" max-w-screen h-[100vh] bg-slate-800 items-center justify-center flex ">
+        <div>
+            <div class="h-[25%] mx-auto justify-center flex flex-col items-center gap-4">
+            <div class=" font-sans font-bold text-2xl leading-12 text-slate-400 px-2">
+                 Increment And Decrement
+            </div>
+            <div class="flex gap-12 justify-center bg-slate-700 border rounded-sm py-1 px-2 bg-opacity-20">
+                <button onclick="increment()" class=" text-2xl text-white border-r-2 border-orange-950 px-4">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+                <div id="countervalue" class="font-mullish text-3xl px-1 py-1 text-white">
+                    0
+                </div>
+                <button onclick="decrement()" class= "text-2xl text-white border-l-2 border-orange-950 px-4">
+                     <i class="fa-solid fa-minus"> </i>
+                </button>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/8fcf37c579.js" crossorigin="anonymous"></script>
+    <script src="counter.js"></script>
+   
+</body>
+</html>
